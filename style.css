@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(56, 77, 59);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 100%;
+    margin: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.fundo{
+    background-color: antiquewhite;
+    border-radius: 14px;
+    text-align: center;
+}
+
+.parteinicio{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.textoesquerda{
+    text-align: left;
+    padding: 20px;
+    list-style-position: inside;
+}
+
+.textocentro{
+    margin: 50px;
+    text-align: center;
+    list-style-position: inside;
+}
+
+.ordemcronologica{
+    text-align: center;
+    list-style-position: inside;
+    background-color: rgb(127, 150, 118);
+    border-radius: 13px;
+    margin: 100px;
+    margin-top: 50px;
+    color: whitesmoke;
+    margin-bottom: 50px;
+
+}
+
+.link{
+    color: rgb(161, 62, 62);
+}
