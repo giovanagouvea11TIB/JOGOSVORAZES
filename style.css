@@ -7,6 +7,11 @@ body{
     justify-content: center;
     align-items: center;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    :root{
+        --verde: #(86, 122, 110);
+        --verde-claro: #(127, 150, 118); 
+    }
 }
 
 .fundo{
@@ -15,14 +20,35 @@ body{
     text-align: center;
 }
 
+#Titulo {
+    color: rgb(21, 61, 13);
+    
+}
+
 .parteinicio{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.textoesquerda{
-    text-align: left;
+#textoesquerda{
+    text-align: center;
     padding: 20px;
     list-style-position: inside;
+    
+    font-weight: 700;
+    text-align: center;
+    
+    margin: 30px;
+    border-radius: 12px;
+
+}
+
+#um{
+    border-radius: 12px;
+}
+
+
+#imagempek{
+    border-radius: 12px;
 }
 
 .textocentro{
@@ -34,7 +60,7 @@ body{
 .ordemcronologica{
     text-align: center;
     list-style-position: inside;
-    background-color: rgb(127, 150, 118);
+    background-color: rgba(56, 77, 59, 0.781);
     border-radius: 13px;
     margin: 100px;
     margin-top: 50px;
@@ -45,4 +71,11 @@ body{
 
 .link{
     color: rgb(161, 62, 62);
+}
+
+#ultimadiv{
+    border-radius: 12px;
+    background-color: rgba(47, 66, 19, 0.466);
+    margin-bottom: none;
+
 }
